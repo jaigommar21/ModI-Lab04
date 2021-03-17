@@ -14,8 +14,8 @@ class TestSort1 {
 		al.add("Alberto");
 		al.add("Samir");
 
-		Collections.sort(al);
-        //Collections.sort(al,Collections.reverseOrder());  
+		//Collections.sort(al);
+        Collections.sort(al,Collections.reverseOrder());  
 
 		for (String s : al) 
 			System.out.println(s);

@@ -10,14 +10,25 @@ public class TestMain6 {
 	public static void main(String[] args) {
 		
 		Set<Persona> personas = new HashSet<Persona>();
+		
 		personas.add( new Persona("73456582", "Juan Velardes") );
+		personas.add( new Persona("45238754", "Miguel Chavez") );
 		personas.add( new Persona("45238754", "Miguel Chavez") );
 		personas.add( new Persona("76438643", "Jaime Farfan") );
 		
-//		for (Persona persona : personas) {
-//			System.out.println(persona);
-//		}
+		for (Persona persona : personas) {
+			System.out.println(persona);
+		}
 
+		
+		if( personas.contains( new Persona("45238754", "Miguel Chavez") ))
+			System.out.println("Migual Chavez esta incluido");
+		else
+			System.out.println("Migual Chavez NO esta incluido");
+
+		
+		
+/*		
 		personas.add( new Persona("76438643", "Jaime Farfan") );
 		
 		personas.add( new Persona("76438643", "Jaime Farfan") );
@@ -27,7 +38,7 @@ public class TestMain6 {
 		for (Persona persona : personas) {
 			System.out.println(persona);
 		}
-		
+*/		
 	}
 
 }

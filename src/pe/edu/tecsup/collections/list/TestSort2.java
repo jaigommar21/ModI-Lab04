@@ -19,8 +19,8 @@ class TestSort2 {
 		al.add(101);
 		al.add(230);
 				
-		//Collections.sort(al);
-        Collections.sort(al,Collections.reverseOrder());  
+		Collections.sort(al);
+        //Collections.sort(al,Collections.reverseOrder());  
 
 		for (Object object : al)
 			System.out.println(object);

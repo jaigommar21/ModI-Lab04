@@ -41,7 +41,7 @@ public class Persona {
 
 	@Override
 	public boolean equals(Object object) {
-		System.out.println("comparacion");
+		//System.out.println("comparacion");
 		if(object instanceof Persona) {
 			Persona persona = (Persona) object;
 			if(persona.dni != null && persona.dni.equals(this.dni)) {
@@ -50,5 +50,12 @@ public class Persona {
 		}
 		return false;
 	}
+	
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return Integer.parseInt(this.dni); // Convierte una cadena a entero
+	}
+	
 	
 }
