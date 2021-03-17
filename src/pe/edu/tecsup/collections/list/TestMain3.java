@@ -7,29 +7,36 @@ public class TestMain3 {
 
 	public static void main(String[] args) {
 		
-		Persona persona2 = new Persona("45238754", "Miguel Chavez");
 		List<Persona> personas = new ArrayList<Persona>();
 		
 		personas.add( new Persona("73456582", "Juan Velardes") );
-		personas.add( new Persona("45238754", "Miguel Chavez") );
+		personas.add( new Persona("45238754", "Miguel Chavez") ); // IDEM
 		personas.add( new Persona("76438643", "Jaime Farfan") );
+		personas.add( new Persona("11111111", "Jaime Gomez") );
 		
-		for (Persona persona : personas) {
-			System.out.println(persona);
-		}
+		System.out.println(personas);
 
+		for (Persona persona : personas)
+			System.out.println(persona);
+		
+		
+		Persona persona2 = new Persona("45238754", "Miguel Chavez"); // IDEM
+
+		
 		if(personas.contains( persona2 )) {
 			System.out.println("Tenemos a Miguel");
 		} else {
 			System.out.println("Miguel no está");
 		}
-/*
+		
+		
+
 		if(personas.contains( new Persona("76438643", "Jaime Farfan"))) {
 			System.out.println("Tenemos a JF");
 		} else {
 			System.out.println("JF no está");
 		}
-*/		
+		
 	}
 
 }
@@ -51,6 +58,23 @@ public class TestMain3 {
      
   */
 
+
+/* Crear la clase Smartphone , que tenga los atributos
+modelo y nombre
+
+Crear una coleccion de moviles y almacenarlos en un List
+
+ -  movil 1 => modelo = "X001" , nombre ="Xiamoi" 
+ -  movil 2 => modelo = "X002" , nombre ="Samsung" 
+ -  movil 3 => modelo = "X003" , nombre ="iPHone" 
+ 
+Buscar si el siguiente movil esta en la lista
+
+ -  movil 4 => modelo = "X002" , nombre ="Samsung"
+ 
+Comparar modelo y nombre 
+ 
+*/
 
 
 

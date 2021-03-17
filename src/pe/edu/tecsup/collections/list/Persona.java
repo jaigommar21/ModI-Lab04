@@ -35,17 +35,23 @@ public class Persona {
 	@Override
 	public String toString() {
 		return "Persona [dni=" + dni + ", nombres=" + nombres + "]";
+		//return "Un registro";
 	}
 	
 	
 	
 	@Override
 	public boolean equals(Object object) {
-		if(object instanceof Persona) {
+		
+		if(object instanceof Persona) { // Es el mismo tipo
+		
 			Persona persona = (Persona) object;
-			if(persona.dni != null && persona.dni.equals(this.dni)) {
+			
+			if(persona.dni != null && persona.dni.equals(this.dni)) 
+				
 				return true;
-			}
+			
+			
 		}
 		return false;
 	}
