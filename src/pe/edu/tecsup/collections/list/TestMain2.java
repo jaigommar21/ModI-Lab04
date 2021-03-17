@@ -8,11 +8,12 @@ public class TestMain2 {
 	public static void main(String[] args) {
 		
 		List<String> nombres = new ArrayList<String>();
-		nombres.add("Juan");
+		
+		nombres.add("Juan");    // 0
 		nombres.add("Miguel");	// 1
-		nombres.add("Julio");
-		nombres.add("María");
-		nombres.add("María");
+		nombres.add("Julio");   // 2
+		nombres.add("María");   // 3
+		nombres.add("María");   // 4
 		
 		String nombre = nombres.get(1);
 		System.out.println(nombre);
@@ -29,8 +30,8 @@ public class TestMain2 {
 		
 		nombres.add("Juan");
 		
-		for (String string : nombres) {
-			System.out.println(string);
+		for (String n : nombres) {
+			System.out.println("nombre =  " + n);
 		}
 
 	}
@@ -49,5 +50,22 @@ public class TestMain2 {
   Imprimir todo el listado
 
  */
+
+
+/*
+
+Crear un arreglo de tipo List, que tenga lo siguiente
+
+ T , E, C , S , U , P 
+
+Encontrar la posicion de la S, 
+Reemplazar la letra S por N
+Reemplazar la letra U por O
+Remover la letra P
+Imprimir todo el listado
+
+*/
+
+
 
 
