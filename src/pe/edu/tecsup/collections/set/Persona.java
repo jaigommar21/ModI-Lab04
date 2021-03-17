@@ -51,6 +51,9 @@ public class Persona {
 		return false;
 	}
 	
+	/**
+	 * Es usado como identificado unico en Set
+	 */
 	@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub
