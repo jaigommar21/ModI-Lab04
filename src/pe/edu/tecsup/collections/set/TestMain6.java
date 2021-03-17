@@ -47,7 +47,7 @@ public class TestMain6 {
 
 	Crear una coleccion de moviles y almacenarlos en un Set
 
-	 -  movil 1 => id = 1 , modelo = "X001" , nombre ="Xiamoi" 
+	 -  movil 1 => id = 1 , modelo = "X001" , nombre ="Xiaomi" 
 	 -  movil 2 => id = 2 , modelo = "X002" , nombre ="Samsung" 
 	 -  movil 3 => id = 3 , modelo = "X003" , nombre ="iPHone" 
 	 	 

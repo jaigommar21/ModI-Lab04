@@ -28,6 +28,7 @@ public class TestMain7 {
 		System.out.println(personas.keySet());		
 		
 		System.out.println(personas.values());
+		
 		Collection<Persona> c = personas.values();		
 		for (Persona p : c) {
 			System.out.println(p);
