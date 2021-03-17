@@ -58,6 +58,11 @@ public class Smartphone {
 		return false;
 	}
 
+	@Override
+	public String toString() {
+		return "Smartphone [id=" + id + ", modelo=" + modelo + ", nombre=" + nombre + "]";
+	}
+
 	
 	
 }
