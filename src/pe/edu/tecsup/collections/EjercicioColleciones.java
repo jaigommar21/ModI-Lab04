@@ -25,10 +25,9 @@ public class EjercicioColleciones {
 
 	
 	 public static void main(String[] args) {
-	        // TODO Auto-generated method stub
-	        // 1.- Definir los en una collecion los 3 primeros meses del año    
-	        Collection<String> meses = new ArrayList<String>();
 	        
+	        // 1.- Definir los en una collecion los 3 primeros meses del año    
+	        Collection<String> meses = new ArrayList<String>();	        
 	        meses.add("Enero");  // String
 	        meses.add("Febrero");  // String
 	        meses.add("Marzo");  // String
@@ -39,12 +38,10 @@ public class EjercicioColleciones {
 	        // 3.- Agregar los 2 meses siguientes        
 	        meses.add("Abril");
 	        meses.add("Mayo");
-	        // 4.- Recorrer todos los meses usando foreach   
-	        
-	        // Iterar (foreach)
-	        for(String mes : meses) {
+
+	        // 4.- Recorrer todos los meses usando foreach   	        
+	        for(String mes : meses)
 	            System.out.println("mes: " + mes);
-	        }
 	        
 	        // 5.- Pregunta si esta registrado el mes "Noviembre"        
 	        if (meses.contains("Noviembre"))
@@ -52,8 +49,7 @@ public class EjercicioColleciones {
 	        else
 	        	System.out.println("Noviembre No esta registrado");
 	        
-	        // 6.- Preguntar si la lista de meses. no esta vacia
-	        
+	        // 6.- Preguntar si la lista de meses. no esta vacia	        
 	        if( meses.isEmpty())
 	            System.out.println("Listado de meses vacios");	
 	        else
