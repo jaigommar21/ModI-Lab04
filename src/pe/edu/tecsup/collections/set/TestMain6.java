@@ -28,17 +28,40 @@ public class TestMain6 {
 
 		
 		
-/*		
 		personas.add( new Persona("76438643", "Jaime Farfan") );
 		
 		personas.add( new Persona("76438643", "Jaime Farfan") );
 		
 		personas.add( new Persona("76438643", "Jaime Farfan") );
+		
 		
 		for (Persona persona : personas) {
 			System.out.println(persona);
 		}
-*/		
+
 	}
 
+	
+	/* Crear la clase Smartphone , que tenga los atributos
+	id, modelo y nombre
+
+	Crear una coleccion de moviles y almacenarlos en un Set
+
+	 -  movil 1 => id = 1 , modelo = "X001" , nombre ="Xiamoi" 
+	 -  movil 2 => id = 2 , modelo = "X002" , nombre ="Samsung" 
+	 -  movil 3 => id = 3 , modelo = "X003" , nombre ="iPHone" 
+	 	 
+    Tratar de ingresar nuevamente los siguientes moviles 
+ 
+ 	 -  movil 5 => id = 2 , modelo = "X002" , nombre ="Samsung" 
+	 -  movil 6 => id = 3 , modelo = "X003" , nombre ="iPHone" 
+
+
+	Buscar si el siguiente movil esta en el Set
+
+	 -  movil 4 => id = 2, modelo = "X002" , nombre ="Samsung"
+	
+	*/
+	
+	
 }
